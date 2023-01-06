@@ -1,3 +1,113 @@
-p {
-    font-size: 16px;
+body {
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Rubik', sans-serif;
 }
+
+footer {
+    margin-bottom: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+img{
+    margin: 0px 15px 0px 50px;
+    padding-left: 25px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 20px 10px;
+    font-size: 18px;
+    align-items: center; 
+}
+
+.voting {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    float: left;
+    margin-top: 60px;
+}
+
+ .plusButton {
+    background-color: hsl(211, 10%, 45%);
+    color: hsl(228, 33%, 97%);
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+
+ .minusButton {
+    background-color: hsl(211, 10%, 45%);
+    color: hsl(228, 33%, 97%);
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    padding: 7px 15px 7px 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0;
+ }
+
+ .likes {
+    text-align:center;
+    background-color: hsl(228, 33%, 97%);
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+    padding: 7px 0px 7px 0px;
+    margin-bottom: 0;
+ }
+
+ .username {
+    color: hsl(212, 24%, 26%);
+    font-weight: 600;
+    margin: 0px 10px 0px 10px;
+ }
+
+ .comment {
+    margin: 10px;
+    padding: 25px;
+    width: 800px;
+    border-radius: 16px;
+    background-color: hsl(0, 0%, 100%);
+    float: right;
+ }
+
+ .commentText {
+    color: hsl(211, 10%, 45%);
+    margin: 0px 0px 0px 75px;
+    padding-left: 25px;
+ }
+
+ .time {
+    color: hsl(211, 10%, 45%);
+    margin: 0px 10px 0px 10px;
+ }
+
+ .reply {
+    margin: 10px 10px 10px 200px;
+    padding: 25px;
+    border-radius: 16px;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    float: right;
+ }
+
+ .replyButton {
+    margin-left: auto;
+    color: #5d5f9e;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+ }
