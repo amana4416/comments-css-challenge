@@ -1,6 +1,13 @@
 body {
-    background-color: hsl(0, 0%, 100%);
+    background-color:   hsl(228, 33%, 97%);
     font-family: 'Rubik', sans-serif;
+}
+
+.card{
+    align-items: center;
+    background-color: hsl(228, 33%, 97%);
+    width: 800;
+    height: auto;
 }
 
 footer {
@@ -11,16 +18,11 @@ button {
     cursor: pointer;
 }
 
-img{
-    margin: 0px 15px 0px 50px;
-    padding-left: 25px;
-}
-
 .flexContainer {
     display: flex;
     flex-direction: row;
     padding: 0px 20px 20px 10px;
-    font-size: 18px;
+    font-size: 16px;
     align-items: center; 
 }
 
@@ -64,11 +66,28 @@ img{
     margin-bottom: 0;
  }
 
+ img{
+    margin: 0px 15px 25x 50px;
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.time {
+    color: hsl(211, 10%, 45%);
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+ }
+
  .username {
     color: hsl(212, 24%, 26%);
     font-weight: 600;
+    display: inline-block;
     margin: 0px 10px 0px 10px;
  }
+
+ /* .postInfo {
+    display: inline;
+ } */
 
  .comment {
     margin: 10px;
@@ -81,13 +100,8 @@ img{
 
  .commentText {
     color: hsl(211, 10%, 45%);
-    margin: 0px 0px 0px 75px;
+    margin: 75px 0px 0px 55px;
     padding-left: 25px;
- }
-
- .time {
-    color: hsl(211, 10%, 45%);
-    margin: 0px 10px 0px 10px;
  }
 
  .reply {
@@ -95,17 +109,61 @@ img{
     padding: 25px;
     border-radius: 16px;
     background-color: hsl(0, 0%, 100%);
-    width: 700px;
+    width: 610px;
     float: right;
  }
 
+ .replyText {
+    color: hsl(211, 10%, 45%);
+    margin: 75px 0px 0px 55px;
+    padding-left: 25px;
+ }
+
  .replyButton {
-    margin-left: auto;
+    /* margin-left: auto; */
     color: #5d5f9e;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+ }
+
+ .postComment {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    border-radius: 16px;
+    background-color:  hsl(0, 0%, 100%);
+    width: 800px;
+    margin-top: 10px;
+    float: right;
+ }
+
+.editButton {
+    margin-left: auto;
+    color: hsl(238, 40%, 52%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+
+}
+
+ .deleteButton {
+    margin-left: auto;
+    color: hsl(357, 100%, 86%);
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 100%);
     border: none;
     height: 40px;
     width: 90px;
